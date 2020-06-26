@@ -1,0 +1,38 @@
+body
+{
+    background-color: crimson;
+}
+.abc{
+    width: 300px;
+
+height: 400px;
+border: 2px solid black;
+text-align: center;
+margin: auto;
+padding: 10px;
+margin-top: 40px;
+background-color: black;
+}
+
+input
+{
+
+    padding: 10px;
+}
+#ans
+{
+    width: 205px;
+    background-color: wheat;
+    color:white;
+    font-weight: bolder;
+}
+
+#clear
+{
+    width: 250px;
+    background-color: burlywood;
+}
+input, button{
+    padding:20px;
+    width: 80px;
+}
