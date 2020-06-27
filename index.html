@@ -4,40 +4,44 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>Saylani Calculator</title>
 
 </head>
 <body>
+
+      
+    <marquee behavior="" direction="" >SAYLANI CALCULATOR</marquee>    
     <div class="abc">
         <form  name="calculate">
 
-        <input type="text" name="answer" id="ans"> <br>
+        <input type="text" name="answer" id="ans" > <br>
 
-        <input type="button" value="1" onclick="calculate.answer.value +='1'" >
-        <input type="button" value="2" onclick="calculate.answer.value +='2'" >
-        <input type="button" value="3" onclick="calculate.answer.value +='3'" ><br>
+        <input type="button" value="1" onclick="getAns('1')" >
+        <input type="button" value="2" onclick="getAns('2')" >
+        <input type="button" value="3" onclick="getAns('3')" ><br>
       
-        <input type="button" value="4" onclick="calculate.answer.value +='4'" >
-        <input type="button" value="5" onclick="calculate.answer.value +='5'" >
-        <input type="button" value="6" onclick="calculate.answer.value +='6'" ><br>
+        <input type="button" value="4" onclick="getAns('4')" >
+        <input type="button" value="5" onclick="getAns('5')" >
+        <input type="button" value="6" onclick="getAns('6')" ><br>
       
-        <input type="button" value="7" onclick="calculate.answer.value +='7'" >
-        <input type="button" value="8" onclick="calculate.answer.value +='8'" >
-        <input type="button" value="9" onclick="calculate.answer.value +='9'" ><br>
+        <input type="button" value="7" onclick="getAns('7')" >
+        <input type="button" value="8" onclick="getAns('8')" >
+        <input type="button" value="9" onclick="getAns('9')" ><br>
       
         
-        <input type="button" value="*" onclick="calculate.answer.value +='*'" >
-        <input type="button" value="-" onclick="calculate.answer.value +='-'" >
-        <input type="button" value="+" onclick="calculate.answer.value +='+'" ><br>
+        <input class="coloring" type="button" value="*" onclick="getAns('*')" >
+        <input class="coloring" type="button" value="-" onclick="getAns('-')" >
+        <input class="coloring" type="button" value="+" onclick="getAns('+')" ><br>
 
         
-        <input type="button" value="/" onclick="calculate.answer.value +='/'" >
-        <input type="button" value="0" onclick="calculate.answer.value +='0'" >
-        <input type="button" value="=" onclick="calculate.answer.value =eval(calculate.answer.value)" ><br>
+        <input class="coloring" type="button" value="/" onclick="getAns('/')" >
+        <input class="coloring" type="button" value="0" onclick="getAns('0')" >
+        <input class="coloring" type="button" value="=" onclick="result()" ><br>
     
     
-        <input type="button" value="CLEAR" onclick="calculate.answer.value =''"  id="clear">
+        <input type="button" value="CLEAR" onclick="clearAns()" id="clear">
     
     </form>
 </body>
+<script src="app.js"></script>
 </html>

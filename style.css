@@ -1,38 +1,65 @@
 body
 {
-    background-color: crimson;
+    background-color: royalblue;
+    background-image: url(https://www.paktribune.com/assets/uploads/images/news/articleimage1585888905.jpg);
+    background-size: 100% 100%;
 }
-.abc{
-    width: 300px;
 
-height: 400px;
-border: 2px solid black;
+marquee
+{
+  text-align: center;  
+  font-size: 45px;
+  margin: 0 300px 0 300px;
+  font-family: cursive;
+  font-weight: bold;
+  color: royalblue;
+  
+}
+
+.abc
+{
+width: 500px;
+height: 525px;
 text-align: center;
 margin: auto;
 padding: 10px;
-margin-top: 40px;
-background-color: black;
+
 }
 
-input
-{
 
-    padding: 10px;
-}
 #ans
 {
-    width: 205px;
-    background-color: wheat;
+    width: 455px;
+    background-color: black;
     color:white;
     font-weight: bolder;
+    margin-bottom: 10px;
+    border: 2px solid white;
+    border-radius: 50px;
 }
 
 #clear
 {
-    width: 250px;
-    background-color: burlywood;
+    width: 490px;
+    background-color: white;
+    margin-top: 8px;
+    font-family: 'Courier New', Courier, monospace;
+    
 }
 input, button{
-    padding:20px;
-    width: 80px;
+    padding:15px;
+    width: 160px;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 6px;
+    border:2px solid black;
+    font-family: fantasy;    
+}
+
+.coloring
+{
+    background:black;
+    color: white;
+    border:2px solid white;
+
 }
